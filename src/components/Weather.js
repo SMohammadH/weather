@@ -3,8 +3,7 @@ import SmallCardList from './SmallCards/SmallCardList';
 import WeatherCard from './WeatherCard';
 import WeatherForm from './WeatherForm';
 
-import { API_URL } from '../config';
-
+const API_URL = 'http://api.openweathermap.org/data/2.5/weather?q=';
 const apiKey = '9d9bac1167dc852610be88150148a049';
 const firstCity = 'tehran';
 

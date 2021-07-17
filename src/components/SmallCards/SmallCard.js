@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { API_URL } from '../../config';
 import WeatherIcon from '../WeatherIcon';
 import { IoCloseCircle } from 'react-icons/io5';
 
 const SmallCard = ({ city, cityClicked, removeCity }) => {
+  const API_URL = 'http://api.openweathermap.org/data/2.5/weather?q=';
   const apiKey = '9d9bac1167dc852610be88150148a049';
   const [name, setName] = useState('');
   const [temp, setTemp] = useState('');
