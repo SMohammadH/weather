@@ -2,7 +2,7 @@ import WeatherIcon from './WeatherIcon';
 
 const WeatherCard = ({ icon, city, description, temp }) => {
   return (
-    <div className='absolute w-64 border b-gray-400 rounded flex flex-col justify-center items-center text-center p-6 bg-white'>
+    <div className='absolute w-80 border border-green-600 bg-gradient-to-b from-blue-100 via-white to-green-50 rounded-3xl flex flex-col justify-center items-center text-center p-6 bg-white'>
       <div className='text-md font-bold flex flex-col text-gray-900'>
         <span className='text-2xl'>{city}</span>
       </div>

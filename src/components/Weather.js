@@ -4,7 +4,7 @@ import WeatherCard from './WeatherCard';
 import WeatherForm from './WeatherForm';
 
 const API_URL = 'http://api.openweathermap.org/data/2.5/weather?q=';
-const apiKey = '9d9bac1167dc852610be88150148a049';
+const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 const firstCity = 'tehran';
 
 function Weather() {
