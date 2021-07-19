@@ -2,8 +2,8 @@ import SmallCard from './SmallCard';
 
 const SmallCardList = ({ cityList, cityClicked, removeCity }) => {
   return (
-    <div className='h-auto hidden dark:bg-gray-900 px-44 md:flex flex-col justify-center sm:py-12'>
-      <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4'>
+    <div className='relative flex justify-center pt-4 md:py-10'>
+      <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4'>
         {cityList.map(city => (
           <SmallCard
             key={city}

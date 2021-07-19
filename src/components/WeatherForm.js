@@ -1,6 +1,6 @@
 const WeatherForm = ({ submitHandler, inputValue, setInputValue }) => {
   return (
-    <div className=' my-5 block m-auto text-center px-36'>
+    <div className='relative my-5 block m-auto text-center md:px-36'>
       <form onSubmit={submitHandler}>
         <input
           type='text'
