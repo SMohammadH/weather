@@ -66,7 +66,7 @@ function Weather() {
   };
 
   return (
-    <div className='min-h-screen flex flex-col bg-gradient-to-b from-blue-200 via-white  to-green-200'>
+    <div className='min-h-screen flex flex-col bg-gradient-to-b from-gray-300 via-gray-400  to-gray-600'>
       {cityList && (
         <SmallCardList
           cityList={cityList}

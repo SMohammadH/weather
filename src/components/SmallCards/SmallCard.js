@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import WeatherIcon from '../WeatherIcon';
-import { IoCloseCircle } from 'react-icons/io5';
+import { AiFillCloseSquare } from 'react-icons/ai';
 
 const SmallCard = ({ city, cityClicked, removeCity, cityList }) => {
   const API_URL = 'https://api.openweathermap.org/data/2.5/weather?q=';
@@ -34,17 +34,17 @@ const SmallCard = ({ city, cityClicked, removeCity, cityList }) => {
     <div onClick={() => cityClicked(city)} className='relative'>
       <span
         onClick={() => removeCity(city)}
-        className='absolute -top-2 -right-2 text-red-600 text-4xl cursor-pointer'
+        className='absolute -top-2 -right-2 text-gray-600 text-3xl cursor-pointer'
       >
-        <IoCloseCircle />
+        <AiFillCloseSquare />
       </span>
-      <div className='bg-white w-36 md:w-52 border-blue-400 dark:bg-gray-800 bg-opacity-60 border-opacity-60 | p-2 border-solid rounded-3xl border | flex justify-around cursor-pointer | hover:bg-blue-200 dark:hover:bg-indigo-600 hover:border-blue-600 | transition-colors duration-500'>
+      <div className='bg-gray-100 w-36 md:w-52 border-gray-400 dark:bg-gray-800 border-opacity-60 | p-2 border-solid  border | flex justify-around cursor-pointer | hover:bg-white dark:hover:bg-indigo-600 hover:border-gray-300 | transition-colors duration-300'>
         <div className='pt-2'>
           <div className='h-16 w-16 flex items-center justify-center'>
             <WeatherIcon icon={icon} />
           </div>
         </div>
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center pr-3'>
           <p className='text-gray-900 dark:text-gray-300 font-semibold'>
             {name}
           </p>
