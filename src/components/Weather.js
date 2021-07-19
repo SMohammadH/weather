@@ -89,7 +89,6 @@ function Weather() {
           removeCity={removeCity}
         />
       )}
-
       <WeatherForm
         submitHandler={submitHandler}
         setInputValue={setInputValue}

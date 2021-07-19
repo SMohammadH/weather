@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import WeatherIcon from '../WeatherIcon';
 import { IoCloseCircle } from 'react-icons/io5';
 
-const SmallCard = ({ city, cityClicked, removeCity }) => {
+const SmallCard = ({ city, cityClicked, removeCity, cityList }) => {
   const API_URL = 'https://api.openweathermap.org/data/2.5/weather?q=';
   const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
   const [name, setName] = useState('');
@@ -10,19 +10,25 @@ const SmallCard = ({ city, cityClicked, removeCity }) => {
   const [icon, setIcon] = useState('');
 
   useEffect(() => {
-    async function fetchData() {
-      const res = await fetch(
-        `${API_URL}${city}&appid=${apiKey}&units=metric&lang=fa`
-      );
-      const data = await res.json();
-      if (data.main) {
+    fetch(`${API_URL}${city}&appid=${apiKey}&units=metric&lang=fa`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.cod === '404') {
+          localStorage.setItem(
+            'cityList',
+            JSON.stringify(cityList.filter(e => e !== city))
+          );
+        }
         setName(data.name);
         setTemp(data.main.temp);
         setIcon(data.weather[0].icon);
-      }
-    }
-    fetchData();
-  }, [city, apiKey]);
+      })
+      .catch(err => console.log(err));
+  }, [city, apiKey, cityList]);
+
+  if (!temp) {
+    return '';
+  }
 
   return (
     <div className='relative'>

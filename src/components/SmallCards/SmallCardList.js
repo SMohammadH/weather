@@ -9,6 +9,7 @@ const SmallCardList = ({ cityList, cityClicked, removeCity }) => {
             key={city}
             city={city}
             cityClicked={cityClicked}
+            cityList={cityList}
             removeCity={removeCity}
           />
         ))}
