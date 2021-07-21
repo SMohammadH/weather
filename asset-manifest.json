@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/weather/static/css/main.1b4fbb96.chunk.css",
-    "main.js": "/weather/static/js/main.fba4f96f.chunk.js",
-    "main.js.map": "/weather/static/js/main.fba4f96f.chunk.js.map",
+    "main.css": "/weather/static/css/main.8ea01a47.chunk.css",
+    "main.js": "/weather/static/js/main.b479d05a.chunk.js",
+    "main.js.map": "/weather/static/js/main.b479d05a.chunk.js.map",
     "runtime-main.js": "/weather/static/js/runtime-main.1f1f041c.js",
     "runtime-main.js.map": "/weather/static/js/runtime-main.1f1f041c.js.map",
-    "static/js/2.4d2057be.chunk.js": "/weather/static/js/2.4d2057be.chunk.js",
-    "static/js/2.4d2057be.chunk.js.map": "/weather/static/js/2.4d2057be.chunk.js.map",
+    "static/js/2.c663293b.chunk.js": "/weather/static/js/2.c663293b.chunk.js",
+    "static/js/2.c663293b.chunk.js.map": "/weather/static/js/2.c663293b.chunk.js.map",
     "static/js/3.3d520120.chunk.js": "/weather/static/js/3.3d520120.chunk.js",
     "static/js/3.3d520120.chunk.js.map": "/weather/static/js/3.3d520120.chunk.js.map",
     "index.html": "/weather/index.html",
-    "static/css/main.1b4fbb96.chunk.css.map": "/weather/static/css/main.1b4fbb96.chunk.css.map",
-    "static/js/2.4d2057be.chunk.js.LICENSE.txt": "/weather/static/js/2.4d2057be.chunk.js.LICENSE.txt",
+    "static/css/main.8ea01a47.chunk.css.map": "/weather/static/css/main.8ea01a47.chunk.css.map",
+    "static/js/2.c663293b.chunk.js.LICENSE.txt": "/weather/static/js/2.c663293b.chunk.js.LICENSE.txt",
     "static/media/01d.915aa95a.svg": "/weather/static/media/01d.915aa95a.svg",
     "static/media/01n.de62377e.svg": "/weather/static/media/01n.de62377e.svg",
     "static/media/02d.996f48c5.svg": "/weather/static/media/02d.996f48c5.svg",
@@ -30,12 +30,13 @@
     "static/media/13n.2190e0f0.svg": "/weather/static/media/13n.2190e0f0.svg",
     "static/media/50d.c540d657.svg": "/weather/static/media/50d.c540d657.svg",
     "static/media/50n.c540d657.svg": "/weather/static/media/50n.c540d657.svg",
+    "static/media/index.css": "/weather/static/media/IRANSansWeb.cfda181b.ttf",
     "static/media/spinner.3658dba9.svg": "/weather/static/media/spinner.3658dba9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f1f041c.js",
-    "static/js/2.4d2057be.chunk.js",
-    "static/css/main.1b4fbb96.chunk.css",
-    "static/js/main.fba4f96f.chunk.js"
+    "static/js/2.c663293b.chunk.js",
+    "static/css/main.8ea01a47.chunk.css",
+    "static/js/main.b479d05a.chunk.js"
   ]
 }
