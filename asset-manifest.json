@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/weather/static/css/main.67c5ada1.chunk.css",
-    "main.js": "/weather/static/js/main.c10ca5b3.chunk.js",
-    "main.js.map": "/weather/static/js/main.c10ca5b3.chunk.js.map",
+    "main.js": "/weather/static/js/main.e3c09ec0.chunk.js",
+    "main.js.map": "/weather/static/js/main.e3c09ec0.chunk.js.map",
     "runtime-main.js": "/weather/static/js/runtime-main.1f1f041c.js",
     "runtime-main.js.map": "/weather/static/js/runtime-main.1f1f041c.js.map",
     "static/js/2.4d2057be.chunk.js": "/weather/static/js/2.4d2057be.chunk.js",
@@ -31,13 +31,13 @@
     "static/media/50d.c540d657.svg": "/weather/static/media/50d.c540d657.svg",
     "static/media/50n.c540d657.svg": "/weather/static/media/50n.c540d657.svg",
     "static/media/index.css": "/weather/static/media/IRANSansXFaNum-Regular.d7e191ae.woff",
-    "static/media/SpinnerLarge.ab5ad437.svg": "/weather/static/media/SpinnerLarge.ab5ad437.svg",
+    "static/media/SpinnerLarge.edf486e2.svg": "/weather/static/media/SpinnerLarge.edf486e2.svg",
     "static/media/SpinnerSmall.7fe00331.svg": "/weather/static/media/SpinnerSmall.7fe00331.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1f1f041c.js",
     "static/js/2.4d2057be.chunk.js",
     "static/css/main.67c5ada1.chunk.css",
-    "static/js/main.c10ca5b3.chunk.js"
+    "static/js/main.e3c09ec0.chunk.js"
   ]
 }
