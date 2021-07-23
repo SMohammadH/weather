@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/weather/static/css/main.7d71ee86.chunk.css",
-    "main.js": "/weather/static/js/main.004bb52f.chunk.js",
-    "main.js.map": "/weather/static/js/main.004bb52f.chunk.js.map",
+    "main.css": "/weather/static/css/main.730e6fcd.chunk.css",
+    "main.js": "/weather/static/js/main.bf2ff9b7.chunk.js",
+    "main.js.map": "/weather/static/js/main.bf2ff9b7.chunk.js.map",
     "runtime-main.js": "/weather/static/js/runtime-main.1f1f041c.js",
     "runtime-main.js.map": "/weather/static/js/runtime-main.1f1f041c.js.map",
     "static/js/2.4d2057be.chunk.js": "/weather/static/js/2.4d2057be.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.3d520120.chunk.js": "/weather/static/js/3.3d520120.chunk.js",
     "static/js/3.3d520120.chunk.js.map": "/weather/static/js/3.3d520120.chunk.js.map",
     "index.html": "/weather/index.html",
-    "static/css/main.7d71ee86.chunk.css.map": "/weather/static/css/main.7d71ee86.chunk.css.map",
+    "static/css/main.730e6fcd.chunk.css.map": "/weather/static/css/main.730e6fcd.chunk.css.map",
     "static/js/2.4d2057be.chunk.js.LICENSE.txt": "/weather/static/js/2.4d2057be.chunk.js.LICENSE.txt",
     "static/media/01d.915aa95a.svg": "/weather/static/media/01d.915aa95a.svg",
-    "static/media/01n.de62377e.svg": "/weather/static/media/01n.de62377e.svg",
+    "static/media/01n.4e5de6ec.svg": "/weather/static/media/01n.4e5de6ec.svg",
     "static/media/02d.996f48c5.svg": "/weather/static/media/02d.996f48c5.svg",
     "static/media/02n.abcfe210.svg": "/weather/static/media/02n.abcfe210.svg",
     "static/media/03d.282f826c.svg": "/weather/static/media/03d.282f826c.svg",
-    "static/media/03n.282f826c.svg": "/weather/static/media/03n.282f826c.svg",
+    "static/media/03n.de62377e.svg": "/weather/static/media/03n.de62377e.svg",
     "static/media/04d.282f826c.svg": "/weather/static/media/04d.282f826c.svg",
     "static/media/04n.282f826c.svg": "/weather/static/media/04n.282f826c.svg",
     "static/media/09d.826eab4a.svg": "/weather/static/media/09d.826eab4a.svg",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.1f1f041c.js",
     "static/js/2.4d2057be.chunk.js",
-    "static/css/main.7d71ee86.chunk.css",
-    "static/js/main.004bb52f.chunk.js"
+    "static/css/main.730e6fcd.chunk.css",
+    "static/js/main.bf2ff9b7.chunk.js"
   ]
 }
