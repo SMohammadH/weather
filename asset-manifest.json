@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/weather/static/css/main.c40e1f55.chunk.css",
-    "main.js": "/weather/static/js/main.1a0a8129.chunk.js",
-    "main.js.map": "/weather/static/js/main.1a0a8129.chunk.js.map",
+    "main.js": "/weather/static/js/main.85ded836.chunk.js",
+    "main.js.map": "/weather/static/js/main.85ded836.chunk.js.map",
     "runtime-main.js": "/weather/static/js/runtime-main.1f1f041c.js",
     "runtime-main.js.map": "/weather/static/js/runtime-main.1f1f041c.js.map",
     "static/js/2.4d2057be.chunk.js": "/weather/static/js/2.4d2057be.chunk.js",
@@ -30,8 +30,8 @@
     "static/media/13n.2190e0f0.svg": "/weather/static/media/13n.2190e0f0.svg",
     "static/media/50d.c540d657.svg": "/weather/static/media/50d.c540d657.svg",
     "static/media/50n.c540d657.svg": "/weather/static/media/50n.c540d657.svg",
-    "static/media/CloudAndSky.0836c521.webm": "/weather/static/media/CloudAndSky.0836c521.webm",
-    "static/media/Clouds.a9f34097.webm": "/weather/static/media/Clouds.a9f34097.webm",
+    "static/media/CloudAndSky.a9f34097.webm": "/weather/static/media/CloudAndSky.a9f34097.webm",
+    "static/media/Clouds.0836c521.webm": "/weather/static/media/Clouds.0836c521.webm",
     "static/media/index.css": "/weather/static/media/IRANSansXFaNum-Regular.d7e191ae.woff",
     "static/media/Moon.6e31b035.webm": "/weather/static/media/Moon.6e31b035.webm",
     "static/media/MoonAndCloud.12a2ea36.webm": "/weather/static/media/MoonAndCloud.12a2ea36.webm",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.1f1f041c.js",
     "static/js/2.4d2057be.chunk.js",
     "static/css/main.c40e1f55.chunk.css",
-    "static/js/main.1a0a8129.chunk.js"
+    "static/js/main.85ded836.chunk.js"
   ]
 }
